@@ -26,6 +26,5 @@ for i in range(M):
             s.add(int(cond[1]))
     elif order == 'all':
         s.update([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
-        print(s)
     elif order == 'empty':
         s.clear()
