@@ -18,7 +18,7 @@ def bfs():
     visited[1] = True
     while q:
         cur = q.popleft()
-        for i, val in enumerate(net[cur]):
+        for val in net[cur]:
             if visited[val] == False:
                 q.append(val)
                 visited[val] = True
