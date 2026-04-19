@@ -7,8 +7,6 @@ num = 0
 
 if fruit_set <= 2:
     print(N)
-elif fruit_set == N:
-    print(2)
 else:
     for a in range(N-1):
         for b in range(N-1-a):
